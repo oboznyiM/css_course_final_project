@@ -51,7 +51,36 @@ body {
     list-style-type: none;
 }
 
-#activity-entity {
+.activity-entity {
+    display: flex;
+    margin-top: 20px
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+#navbar-main {
+    list-style-type: none;
+}
+
+.navbar-main-entity {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#navbar-bottom {
+    list-style-type: none;
+}
+
+#author {
     display: flex;
     justify-content: space-between;
 }

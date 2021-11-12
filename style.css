@@ -18,7 +18,7 @@ nav {
     padding:  10px  10%;
 }
 
-section {
+.first_section {
     display: grid;
     grid-template-columns: 60% 40%;
     margin: 0 10%;
@@ -65,4 +65,37 @@ h1 {
   #navbar {
       display: flex;
       justify-content: space-between;
+  }
+  #blocks-header {
+      display: flex;
+      justify-content: center;
+  }
+  #blocks-header-div {
+    width: 88%;
+    height: 160;
+    background-color: chartreuse;
+  }
+
+  #blocks-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    row-gap: 30px;
+  }
+  .block-grid {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 560px;
+    text-align: center;
+  }
+  .block-img {
+      background-color: darkorchid;
+      font-size: 15em;
+      text-align: center;
+  }
+  .block-content {
+      margin-top: 10%;
+      padding: 10px;
+      height: 70%;
+      background-color: darksalmon;
   }

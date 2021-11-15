@@ -226,3 +226,20 @@ h1 {
   section {
     border: 2px red dashed;
   }
+
+  th,
+tr {
+  border: 1px solid rgb(176, 176, 176);
+  padding: 10px;
+}
+
+td {
+  border: 1px solid rgb(176, 176, 176);
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}

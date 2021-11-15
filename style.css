@@ -6,6 +6,7 @@
 body, ul {
     margin: 0%;
     padding: 0%;
+    list-style-type: none;
     
 }
 header{
@@ -42,7 +43,7 @@ h1 {
 
 }
 .flex-container {
-    margin-top: 150px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -163,7 +164,6 @@ h1 {
   }
 
   #blocks-header {
-      display: flex;
       justify-content: center;
   }
   #blocks-header-div {
@@ -221,4 +221,8 @@ h1 {
     height: 200px;
     display: flex;
     justify-content: space-between;
+  }
+
+  section {
+    border: 2px red dashed;
   }

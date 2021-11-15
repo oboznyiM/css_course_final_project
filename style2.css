@@ -1,5 +1,6 @@
 body {
     display: grid;
+    margin-top: 0;
     grid-template-columns: 20% 80%;
 }
 
@@ -84,4 +85,19 @@ nav {
 #author {
     display: flex;
     justify-content: space-between;
+}
+#author-info {
+    display: flex;
+}
+.additional {
+    font-size: 1em;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 1px;
+    border-style: dashed;
+    border-color: black;
 }

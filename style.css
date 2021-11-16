@@ -227,19 +227,9 @@ h1 {
     border: 2px red dashed;
   }
 
-  th,
-tr {
-  border: 1px solid rgb(176, 176, 176);
-  padding: 10px;
-}
 
-td {
-  border: 1px solid rgb(176, 176, 176);
-  padding: 10px;
-  text-align: center;
-}
+#footer-blog {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
 
-table {
-  width: 100%;
-  /* border-collapse: collapse; */
 }

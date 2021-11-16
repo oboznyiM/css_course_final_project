@@ -58,14 +58,14 @@ body {
     background-color: aquamarine;
 }
 
-nav {
+.nav {
     position: sticky;
     top: 0;
     background-color: seagreen;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
+    height: 700px;
 }
 
 #navbar-main {
@@ -100,4 +100,10 @@ section {
     border: 1px;
     border-style: dashed;
     border-color: black;
+}
+
+.range-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
 }
